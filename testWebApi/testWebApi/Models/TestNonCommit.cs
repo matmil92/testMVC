@@ -10,6 +10,10 @@ namespace testWebApi.Models
         private String javaStyleName;
         private Int32 javaStyleNumber;
 
+        public TestNonCommit()
+        {
+            this.javaStyleName = "test";
+        }
         public String getJavaStyleName()
         {
             return javaStyleName;
