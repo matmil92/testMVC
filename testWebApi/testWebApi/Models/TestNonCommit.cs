@@ -12,7 +12,7 @@ namespace testWebApi.Models
 
         public TestNonCommit()
         {
-            this.javaStyleName = "test";
+            this.javaStyleName = "test2";
         }
         public String getJavaStyleName()
         {
